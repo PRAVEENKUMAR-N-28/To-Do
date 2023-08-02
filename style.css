@@ -86,7 +86,6 @@ ul li span:hover{
     background: #edeef0;
 }
 
-
 @media  (max-width: 767.98px) { 
     .todo{
         background: white;
@@ -117,5 +116,4 @@ ul li span:hover{
     cursor: pointer;
     position: relative;
     }
-
 }
