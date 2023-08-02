@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu SA Beginner', cursive;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right top,#65dfc9 , #6cdbeb);
+    padding: 50px;
+}
+.todo{
+    background: white;
+    margin: 0px auto 0px;
+    width: 400px;
+    background: linear-gradient(to right bottom , rgba(255,255,255,0.7),rgba(255,255,255,0.3) );
+    border-radius: 10px;
+    padding: 40px 30px 70px;
+}
+.todo h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.todo h2{
+    color: #658ec6;
+    letter-spacing: 1px;
+}
+
+input{
+    border-radius: 5px;
+    border: 2px solid rgba(255,255,255,0.3);
+    margin-top: 10px;
+    height: 44px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #65dfc9;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 25px;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    font-size: 17px;
+    padding: 17px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li.checked{
+    color:#555;
+    text-decoration: line-through;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background: #edeef0;
+}
